@@ -1,0 +1,11 @@
+transformers==4.45.0
+torch==2.4.1
+torchaudio==2.4.1
+torchcodec
+torchvision
+gradio
+numpy
+spaces
+sacrebleu[ja]
+mecab-python3
+unidic-lite

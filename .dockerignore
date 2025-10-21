@@ -1,0 +1,72 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# Directories to ignore
+adjusted/
+approx/
+diverse/
+figures/
+gym/
+matrix/
+notebooks/
+results/
+rewards/
+samples/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore Docker files not used in Dockerfile.uv
+Dockerfile
+Dockerfile.*
+!Dockerfile.uv
+
+# Ignore node modules
+node_modules/
+
+# Ignore OS generated files
+*.DS_Store
+Thumbs.db
+
+# Ignore test and documentation files
+tests/
+
+# Ignore large data and export files
+*.csv
+*.tsv
+*.json
+*.xml
+*.gsheet
+*.xlsx
+wandb_export_*
+tmp*
+*.log
+*.out
+*.tmp
+*.bak
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Ignore build artifacts
+*.so
+*.db
+*.sqlite3
+docs/
+*.md
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
