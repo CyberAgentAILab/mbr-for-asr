@@ -1,6 +1,6 @@
 ## Minimum Bayes Risk Decoding for Automated Speech Recognition
 
-This repository contains the experiment code for Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition.
+This repository contains the experiment code for [Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition](https://arxiv.org/abs/2510.19471).
 
 ![Minimum Bayes Risk Decoding](mbr-asr.png)
 
@@ -64,11 +64,11 @@ python3 app.py
 
 ### LICENSE
 
-The codebase is [MIT License](LICENSE), except for the implementation of MetricX in [mbr/utility/metricx.py](mbr/utility/metricx.py) which is owned by Google and distributed under Apache 2.0 license.
+The codebase is [MIT License](LICENSE), except for the implementation of MetricX in [mbr/utility/metricx.py](mbr/utility/metricx.py), which is owned by Google and distributed under Apache 2.0 license.
 
 ### Reference
 
-(TBA) Yuu Jinnai. 2025. Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition. arXiv.
+[Yuu Jinnai. 2025. Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition. arXiv preprint arxiv:2510.19471.](https://arxiv.org/abs/2510.19471)
 
 ### Contact
 
