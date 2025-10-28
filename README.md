@@ -44,7 +44,7 @@ Then, the following command computes the MBR decoding using the sampled outputs.
 ```
 This code runs the evaluation at the same time.
 This codebase supports various evaluation metrics, including WER, CER, BLEU, ROUGE, and METEOR.
-You can also add your own metric by following the interface defined in [mbr/utility/metricx.py](mbr/utility/metricx.py).
+You can also add your own metric by following the interface defined in [mbr/utility/utility_class.py](mbr/utility/utility_class.py).
 
 The result of the evaluation is stored in results/ directory.
 
